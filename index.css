@@ -11,7 +11,76 @@
 - Grayish Blue: hsl(218, 22%, 67%) */
 
 
-body{
+body {
+    font-family: 'Karla', sans-serif;
     font-size: 16px;
-    
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bottom-row {
+    display: flex;
+}
+
+.column-left {
+    width: 100%;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    /* padding: 2.5em; */
+}
+
+.column-right {
+    width: 100%;
+    background-color: rgb(74, 190, 189);
+    color: white;
+    /* padding: 2.5em; */
+}
+
+.container {
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 1170px; */
+    /* width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.primary {
+    color: hsl(179, 62%, 43%);
+}
+
+.secondary {
+    color: hsl(71, 73%, 54%);
+}
+
+.text-muted {
+    color: hsl(218, 22%, 67%) ;
+}
+
+.text-muted2 {
+    color: hsl(204, 43%, 93%);
+}
+
+.text-small {
+    font-size: 0.6em;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
