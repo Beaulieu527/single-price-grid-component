@@ -27,7 +27,7 @@ body {
 
 .card {  
     border-radius: 8px;
-    width: 800px;
+    width: 850px;
     height: 600px;
     /* border: solid 0.5px rgba(0,0,0,0.2); */
     box-shadow: 0 15px 30px 0 rgba(0,0,0,0.2)
@@ -68,6 +68,7 @@ body {
 }
 
 .container {
+    padding-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
     /* margin-right: auto;
@@ -96,6 +97,10 @@ body {
     color: hsl(204, 43%, 93%);
 }
 
+.text-muted3 {
+    color: #6AD3D4;
+}
+
 .text-small {
     font-size: 0.6em;
 }
@@ -108,4 +113,12 @@ button {
     width: 100%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+}
+
+/* p {
+    font-size: 0.rem;
+} */
+
+.font-bigger {
+    font-size: 1.25em;
 }
