@@ -137,3 +137,45 @@ ul {
 h1, h3, h2 {
     margin-block-end: 0;
 }
+
+@media only screen and (max-width: 800px){
+
+    .card-wrapper {
+        margin: 70px 0px;
+        width: 100%;
+    }
+
+    .card {
+        width: 315px;
+        height: auto;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .primary {
+        font-size: 1em;
+    }
+
+    .secondary {
+        font-size: 0.9em !important;
+    }
+
+    .font-bigger {
+        font-size: 0.85em !important;
+        margin-block-end: 0px; 
+    }
+
+    .column-left {
+        border-bottom-left-radius: 0px;
+    }
+
+    .column-right {
+        border-bottom-left-radius: 8px;
+    }
+
+    .bottom-row {
+        flex-direction: column;
+    }
+} 
