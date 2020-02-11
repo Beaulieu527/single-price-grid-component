@@ -78,10 +78,7 @@ body {
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
-    padding-top: 2rem;
-    padding-left: 4.3rem;
-    padding-right: 4.3rem;
-    padding-bottom: 2rem;
+    padding: 40px;
     /* height: 90%; */
     /* margin-right: auto;
     margin-left: auto; */
@@ -132,11 +129,16 @@ body {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
-/* 
-p {
-    font-size: 1.2em;
-}
 
-.font-bigger {
+p {
+    font-size: .8em;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    font-size: .8em;
+}
+/* .font-bigger {
     font-size: 1.25em;
 } */
