@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: auto;
     height: 100vh;
 }
 
